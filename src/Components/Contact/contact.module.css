@@ -71,10 +71,13 @@
     position: static;
     width: 100%;
     box-shadow: none;
+    z-index: -5;
+    background-color: transparent;
   }
   .headerImage {
     width: 100%;
-    margin: 2rem 0;
+    margin: 5rem 0;
+    height: 35vw;
   }
 }
 @media screen and (max-width: 561px) {
