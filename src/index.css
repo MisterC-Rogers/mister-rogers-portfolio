@@ -147,3 +147,31 @@ html {
 body {
   margin: 0 0 100px;
 }
+
+.carousel-root .carousel .slide img {
+  width: 50vw;
+}
+.carousel .thumbs-wrapper {
+  display: none;
+}
+.carousel-status {
+  display: none;
+}
+.carousel-root .carousel.carousel-slider {
+  z-index: -1;
+}
+.carousel-root .carousel.carousel-slider .control-arrow {
+  opacity: 1;
+  font-size: 3rem;
+}
+.carousel-root .carousel .control-next.control-arrow:before {
+  border-left: 8px solid #000000;
+}
+
+.carousel-root .carousel .control-prev.control-arrow:before {
+  border-right: 8px solid #000000;
+}
+
+.carousel-root .carousel .control-dots {
+  display: none;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Smiling from "../../Images/Charlie_Rogers_smiling.jpg";
+import Smiling from "./Charlie_Rogers_smiling.jpg";
 import Styles from "./header.module.css";
 
 const index = () => {

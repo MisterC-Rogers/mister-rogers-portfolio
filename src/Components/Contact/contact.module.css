@@ -24,7 +24,7 @@
   box-shadow: 0 0 0 0.5em #42424270;
 }
 .headerImage {
-  background-image: url("../../Images/david-iskander-unsplash.jpg");
+  background-image: url("./david-iskander-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 80%;

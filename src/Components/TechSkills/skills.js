@@ -14,16 +14,16 @@ const skillsData = [
     image: "https://img.icons8.com/color/96/000000/css3.png",
     width: "96px",
   },
-  {
-    name: "Sass",
-    image: "https://img.icons8.com/color/96/000000/sass-avatar.png",
-    width: "96px",
-  },
-  {
-    name: "less",
-    image: "https://img.icons8.com/windows/96/000000/less-logo.png",
-    width: "96px",
-  },
+  // {
+  //   name: "Sass",
+  //   image: "https://img.icons8.com/color/96/000000/sass-avatar.png",
+  //   width: "96px",
+  // },
+  // {
+  //   name: "less",
+  //   image: "https://img.icons8.com/windows/96/000000/less-logo.png",
+  //   width: "96px",
+  // },
   {
     name: "GitHub",
     image: "https://img.icons8.com/nolan/96/github.png",
@@ -59,12 +59,12 @@ const skillsData = [
     image: "https://img.icons8.com/nolan/96/react-native.png",
     width: "96px",
   },
-  {
-    name: "Ruby",
-    image:
-      "https://img.icons8.com/color/96/000000/ruby-programming-language.png",
-    width: "96px",
-  },
+  // {
+  //   name: "Ruby",
+  //   image:
+  //     "https://img.icons8.com/color/96/000000/ruby-programming-language.png",
+  //   width: "96px",
+  // },
   {
     name: "Shopify",
     image: "https://img.icons8.com/color/96/000000/shopify.png",
@@ -75,11 +75,11 @@ const skillsData = [
     image: "https://img.icons8.com/fluency/96/000000/gatsbyjs.png",
     width: "96px",
   },
-  {
-    name: "AWS",
-    image: "https://img.icons8.com/color/96/000000/amazon-web-services.png",
-    width: "96px",
-  },
+  // {
+  //   name: "AWS",
+  //   image: "https://img.icons8.com/color/96/000000/amazon-web-services.png",
+  //   width: "96px",
+  // },
 ];
 
 export default skillsData;

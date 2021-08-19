@@ -1,29 +1,37 @@
 import React from "react";
-import Slider from "react-slick";
+import data from "./data";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
-function slider() {
-  var settings = {
-    dots: true,
-  };
+import Styles from "./slider.module.css";
+
+const Slider = () => {
   return (
-    <div className="">
-      <Slider {...settings}>
-        {/* {items.map((item, index) => (
-          <div className="" key={index}>
-            <div className="">
-              <h3 className="">{item.title}</h3>
-              <p className="">{item.description}</p>
+    <div className={Styles.container}>
+      <h2>Featured Projects</h2>
+      <p>Here is a collection of projects that I would like to highlight</p>
+      <Carousel>
+        {data.map((item, index) => {
+          return (
+            <div key={index}>
+              <h3>{item.title}</h3>
+              <img
+                src={item.image}
+                alt={item.title}
+                width={item.width / 2}
+                max-height={item.height}
+                max-width={item.width}
+              />
+              <p>{item.description}</p>
+              <a href={item.url} target="_blank" rel="noreferrer">
+                Link To Site
+              </a>
             </div>
-            <div className="">
-              <figure className="">
-                <img src={item.image} alt={item.title}></img>
-              </figure>
-            </div>
-          </div>
-        ))} */}
-      </Slider>
+          );
+        })}
+      </Carousel>
     </div>
   );
-}
+};
 
-export default slider;
+export default Slider;
