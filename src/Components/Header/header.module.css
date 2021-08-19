@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+.headerTextContainer {
+  text-align: center;
+}
+.headerText {
+  padding: 3rem;
+}
+.headerBtn {
+  background: cornflowerblue;
+  color: cornsilk;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5%;
+}
+.headerBtn:focus,
+.headerBtn:hover {
+  color: whitesmoke;
+  background: blue;
+}
+.image {
+  margin: 15px auto;
+  max-width: 570px;
+  max-height: 500px;
+  border-radius: 25%;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+  .image {
+    max-height: 300px;
+  }
+}

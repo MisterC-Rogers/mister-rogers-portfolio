@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  margin: 6rem auto 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.headerText {
+  position: absolute;
+  width: 35%;
+  left: 0;
+  z-index: 1;
+  background-color: #f3f3f39a;
+  box-shadow: 0 0 0 0.5em #42424270;
+}
+.headerImage {
+  background-image: url("../../Images/david-iskander-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 30vw;
+  margin-left: auto;
+  opacity: 0.8;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem;
+}
+.card {
+  position: relative;
+  border: 2px solid #424242;
+  border-radius: 1rem;
+  padding: 1.5em;
+  flex: 0 1 40%;
+  margin: 1.5rem;
+}
+.icon {
+  width: 3rem;
+  height: 3rem;
+}
+.last {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .container {
+    margin-top: 6rem;
+  }
+  .header {
+    flex-direction: column;
+    position: static;
+  }
+  .headerText {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+  }
+  .headerImage {
+    width: 100%;
+    margin: 2rem 0;
+  }
+}
+@media screen and (max-width: 561px) {
+  .card {
+    flex: 0 1 80%;
+  }
+  .headerImage {
+    display: none;
+  }
+}

@@ -1,0 +1,36 @@
+.skillsSection {
+  background: #616161;
+  padding: 1em;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.textContainer {
+  margin: 1.5rem;
+  color: whitesmoke;
+}
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skillImage {
+  width: 80px;
+  flex: 0 1 80px;
+  margin: 5px;
+}
+@media screen and (max-width: 800px) {
+  .skillImage {
+    width: 32px;
+    flex: 0 1 32px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .skillImage {
+    width: 48px;
+    flex: 0 1 48px;
+  }
+}
