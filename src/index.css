@@ -157,9 +157,7 @@ body {
 .carousel-status {
   display: none;
 }
-.carousel-root .carousel.carousel-slider {
-  z-index: -1;
-}
+
 .carousel-root .carousel.carousel-slider .control-arrow {
   opacity: 1;
   font-size: 3rem;
