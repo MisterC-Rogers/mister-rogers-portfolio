@@ -5,7 +5,7 @@ import Styles from "./header.module.css";
 
 const index = () => {
   return (
-    <div className={Styles.container}>
+    <section className={Styles.container}>
       <div className={Styles.headerTextContainer}>
         <div className={Styles.headerText}>
           <h2>Charlie Rogers</h2>
@@ -29,7 +29,7 @@ const index = () => {
           className={Styles.image}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

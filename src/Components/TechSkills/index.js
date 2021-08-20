@@ -4,7 +4,7 @@ import Styles from "./skills.module.css";
 
 const index = () => {
   return (
-    <div className={Styles.skillsSection}>
+    <section className={Styles.skillsSection}>
       <div className={Styles.container}>
         <div className={Styles.textContainer}>
           <h3>Technical Skills</h3>
@@ -24,7 +24,7 @@ const index = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

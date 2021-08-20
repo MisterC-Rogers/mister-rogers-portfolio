@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className={Styles.FooterComponent}>
+    <footer className={Styles.FooterComponent}>
       <div className={Styles.social}>
         <a
           href="https://twitter.com/MisterCRogers"
@@ -29,7 +29,7 @@ function Footer() {
         </a>
       </div>
       <div className={Styles.copyright}>© 2021 Charlie Rogers</div>
-    </div>
+    </footer>
   );
 }
 

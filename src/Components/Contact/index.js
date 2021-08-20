@@ -9,7 +9,7 @@ const index = () => {
     <div className={Styles.container}>
       <div className={Styles.header}>
         <div className={Styles.headerText}>
-          <h2>Get In Thouch</h2>
+          <h2>Get In Touch</h2>
           <h5>
             Want to get in touch? I'd love to hear from you. Here's how you can
             reach me...
@@ -22,7 +22,9 @@ const index = () => {
           <FaPhone className={Styles.icon} />
           <h3> Call Me </h3>
           <p>To inquire information about what I am up to or just to chat...</p>
-          <p className={Styles.last}>+1 405 434-1192</p>
+          <a href="tel:14054341192" className={Styles.last}>
+            +1 405 434-1192
+          </a>
         </div>
         <div className={Styles.card}>
           <BsFillChatFill className={Styles.icon} />

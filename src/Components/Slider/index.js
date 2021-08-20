@@ -4,11 +4,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 import Styles from "./slider.module.css";
-import { Link } from "react-router-dom";
 
 const Slider = () => {
   return (
-    <div className={Styles.container}>
+    <section className={Styles.container}>
       <h2>Featured Projects</h2>
       <p>Here is a collection of projects that I would like to highlight</p>
       <Carousel>
@@ -31,7 +30,7 @@ const Slider = () => {
           );
         })}
       </Carousel>
-    </div>
+    </section>
   );
 };
 

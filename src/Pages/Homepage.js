@@ -6,11 +6,11 @@ import TechSkills from "../Components/TechSkills";
 const Homepage = () => {
   return (
     <>
-      <div className="homeContainer">
+      <main className="homeContainer">
         <Header />
         <TechSkills />
         <Slider />
-      </div>
+      </main>
       <style jsx>{`
         .homeContainer {
           margin-top: 4rem;
