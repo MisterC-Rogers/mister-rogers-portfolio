@@ -24,38 +24,25 @@ const index = () => {
                 </div>
 
                 <div className={Styles.card_back}>
-                  <p>{item.description}</p>
-                  <a href={item.url} target="_blank" rel="noreferrer">
-                    link to site
-                  </a>
-                  <a href={item.github} target="_blank" rel="noreferrer">
-                    link to code
-                  </a>
-                  <div className={Styles.design_container}>
-                    <span
-                      className={[`${Styles.design} ${Styles.design__1}`]}
-                    ></span>
-                    <span
-                      className={[`${Styles.design} ${Styles.design__2}`]}
-                    ></span>
-                    <span
-                      className={[`${Styles.design} ${Styles.design__3}`]}
-                    ></span>
-                    <span
-                      className={[`${Styles.design} ${Styles.design__4}`]}
-                    ></span>
-                    <span
-                      className={[`${Styles.design} ${Styles.design__5}`]}
-                    ></span>
-                    <span
-                      className={[`${Styles.design} ${Styles.design__6}`]}
-                    ></span>
-                    <span
-                      className={[`${Styles.design} ${Styles.design__7}`]}
-                    ></span>
-                    <span
-                      className={[`${Styles.design} ${Styles.design__8}`]}
-                    ></span>
+                  <figcaption>{item.title}</figcaption>
+                  <p className={Styles.description}>{item.description}</p>
+                  <div className={Styles.buttonContainer}>
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className={Styles.button}
+                    >
+                      link to site
+                    </a>
+                    <a
+                      href={item.github}
+                      target="_blank"
+                      rel="noreferrer"
+                      className={Styles.button}
+                    >
+                      link to code
+                    </a>
                   </div>
                 </div>
               </div>
