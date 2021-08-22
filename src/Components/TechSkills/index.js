@@ -14,13 +14,16 @@ const index = () => {
           </h6>
         </div>
         <div className={Styles.skillsContainer}>
-          {skills.map(({ skill: name, image, width }, index) => (
-            <img
-              src={image}
-              alt={name}
-              key={index}
-              className={Styles.skillImage}
-            />
+          {skills.map((skill, index) => (
+            <div>
+              <img
+                src={skill.image}
+                alt={skill.name}
+                key={index}
+                className={Styles.skillImage}
+              />
+              <p>{skill.name}</p>
+            </div>
           ))}
         </div>
       </div>
