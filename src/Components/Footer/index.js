@@ -14,7 +14,7 @@ function Footer() {
           <FaTwitter />
         </a>
         <a
-          href="https://www.linkedin.com/in/charles-a-rogers-sr-823636102"
+          href="https://www.linkedin.com/in/mister-rogers/"
           target="_blank"
           rel="noopener noreferrer"
         >
